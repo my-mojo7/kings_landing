@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>King's Landing | Services</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="Welcome to King's Landing ">
+  <meta name="keywords" content="night club/restaurant, endless entertainment, once in a life time experience">
+  <meta name="author" content="Joshua Cox">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div id="branding">
+        <h1><span class="highlight">King's</span> Landing</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li class="current"><a href="services.html">Services</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="newsletter">
+    <div class="container">
+      <h1>Subscribe To Our Newsletter </h1>
+      <form>
+        <input type="email" placeholder="Enter Email...">
+        <button type="submit" class="button_1">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <section id="main">
+    <div class="container">
+      <article id="main-col">
+        <h1 class="page-title">Services</h1>
+        <ul id="services">
+          <li>
+            <h3>Renting Room Prices(Space Only) - longterm/short term business.</h3>
+            <p>These are daytime options for entrepreneurs and or other business/organizations </p>
+            <p>Hourly - $75</p>
+            <p>Full day - $600</p>
+            <p>Weekly - $3,000</p>
+            <p>Monthly - $13,500</p>
+          </li>
+          <li>
+            <h3>Private Events (Birthdays, Weddings, Dinners, Receptions and Anniversaries)</h3>
+            <p>These are events hosted by others who want to use our space for their events.</p>
+            <p>Starting price - $1,000</p>
+            <p>The cost will rise if any other services are needed such as security etc.</p>
+          </li>
+          <li>
+            <h3>Concerts</h3>
+            <p>These are events held for all the top aritist as well as other talented entertainers</p>
+            <p>Price - $1,800 (Space Only)</p>
+            <p>The price will rise if other services are needed, such as bartenders, security etc.</p>
+          </li>
+        </ul>
+      </article>
+
+      <aside id="sidebar">
+        <div class="dark">
+          <h3>Get A Quote</h3>
+          <form class="quote">
+            <div>
+              <label>Name</label><br>
+              <input type="text" placeholder="Name">
+            </div>
+            <div>
+              <label>Email</label><br>
+              <input type="email" placeholder="Email Address">
+            </div>
+            <div>
+              <label>Message</label><br>
+              <textarea placeholder="Message"></textarea>
+            </div>
+            <button class="button_1" type="submit">Send</button>
+          </form>
+
+          <div class="weather-container">
+            <img class="icon">
+            <p class="name"> </p>
+            <P class="weather"> </P>
+            <p class="temp"> </p>
+          </div>
+
+        </div>
+      </aside>
+    </div>
+  </section>
+  <footer>
+    <p>King's Landing , Copyright &copy; 2018</p>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+
+  <!-- Firebase Scripts -->
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.2.2/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/7.2.2/firebase-database.js"></script>
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyCy1lVCCAXBa2atD1oZDg5WNjK1lAiU72c",
+      authDomain: "counter-887fd.firebaseapp.com",
+      databaseURL: "https://counter-887fd.firebaseio.com",
+      projectId: "counter-887fd",
+      storageBucket: "counter-887fd.appspot.com",
+      messagingSenderId: "310620660950",
+      appId: "1:310620660950:web:2e7c0ae5d5332a544bd577"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
+
+
+  <!-- Js script -->
+  <script src="King's_Landing.js"></script>
+</body>
+
+</html>

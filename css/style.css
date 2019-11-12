@@ -1,0 +1,548 @@
+body {
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+  /* inline-size: fit-content; */
+}
+
+/* Global */
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly
+}
+
+
+#links {
+  display: flex;
+  align-content: space-evenly;
+  /* position: relative; */
+  left: 35%;
+
+}
+
+#insta ul {
+  margin: 0;
+  padding: 0;
+}
+
+.button_1 {
+  height: 38px;
+  background: #00FFFF;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+}
+
+.dark {
+  padding: 15px;
+  background: #35424a;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Header */
+header {
+  background: #35424a;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #00FFFF 3px solid;
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+
+header li {
+  /* float: left; */
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding {
+  float: left;
+}
+
+header #branding h1 {
+  margin: 0;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+.header-img {
+  width: 100%;
+  height: 400px;
+  background: url(logo.jpg);
+  background-size: cover;
+}
+
+header .highlight,
+header .current a {
+  color: #00FFFF;
+  font-weight: bold;
+}
+
+
+header a:hover {
+  color: #cccccc;
+  font-weight: bold;
+}
+
+/* Showcase*/
+#showcase {
+  min-height: 500px;
+
+  background: url('../images/pic1.jpg');
+  background-size: 100vh;
+  background-position: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+#showcase h1 {
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+#showcase p {
+  font-size: 20px;
+}
+
+#newsletter {
+  padding: 15px;
+  color: #ffffff;
+  background: #35424a;
+}
+
+/*newsletter*/
+#newsletter h1 {
+  float: left;
+}
+
+#newsletter form {
+  float: right;
+  margin-top: 15px;
+}
+
+#newsletter input[type="email"] {
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+
+}
+
+/*boxes*/
+#boxes {
+  margin-top: 20px;
+}
+
+#boxes .box {
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+
+#boxes .box img {
+  width: 120px;
+}
+
+/* Sidebar */
+aside#sidebar {
+  float: right;
+  width: 45%;
+  padding: 10px;
+}
+
+aside#sidebar .quote input,
+aside#sidebar .quote textarea {
+  width: 90%;
+  padding: 5px;
+}
+
+/* Main-col */
+article#main-col {
+  float: left;
+  width: 45%;
+}
+
+/* Services */
+ul#services li {
+  list-style: none;
+  padding: 20px border, #cccccc solid 1px;
+  margin-bottom: 5px;
+  background: #e6e6e6;
+}
+
+.weather-container {
+  text-align: center;
+  padding: 20px border, #cccccc solid 1px;
+  margin-bottom: 5px;
+  background: #e6e6e6;
+}
+
+/* Gallery */
+.gallery {
+  margin: 10px 50px;
+}
+
+.gallery img {
+  width: 230px;
+  padding: 5px;
+  filter: grayscale(100%);
+  transition: 1s;
+}
+
+.gallery img:hover {
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
+
+/* Contact Us */
+.contact-title {
+  margin: -0px;
+  padding: 200px;
+  text-align: center;
+  /* background: linear-gradient(rgba(0, 0, 0.1, 0), rgba(0, 0, 0.1, 0)), url('../images/pic12.jpg'); */
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+
+}
+
+.contact-title {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #fff;
+  text-transform: uppercase;
+  transition: all 4s ease-in-out;
+  background: #35424a
+}
+
+.contact-title h1 {
+  font-size: 32px;
+  line-height: 10px;
+}
+
+.contact-title h2 {
+  font-size: 16px;
+}
+
+#contact form {
+  margin-top: 50px;
+  transition: all 4s ease-in-out;
+}
+
+.form-control {
+  width: 600px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  color: #ffffff;
+  font-size: 18px;
+  margin-bottom: -0px;
+
+}
+
+form input {
+  height: 45px;
+}
+
+.contact-form {
+  background: #00FFFF;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+
+}
+
+Form .submit:hover {
+  background-color: #00FFFF;
+  cursor: pointer;
+}
+
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: #00FFFF;
+  text-align: center;
+}
+
+/* Media Queries */
+@media(max-width: 768px) {
+
+  header #branding,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar {
+    float: none;
+    text-align: center;
+    width: 100px;
+    inline-size: fit-content;
+    justify-content: center;
+    flex-wrap: wrap;
+
+  }
+
+  header {
+    padding-bottom: 20px;
+  }
+
+  #showcase h1 {
+    margin-top: 40px;
+  }
+
+  #newsletter button,
+  .quote button {
+    display: block;
+    width: 100%;
+  }
+
+  #newsletter from input[type="email"],
+  .quote input,
+  .quote textarea {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+}
+
+#header {
+  background-color: #666;
+  padding: 2px;
+  font-family: 'Merriweather', serif;
+
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+font-family: 'Monoton',
+cursive;
+font-family: 'Fredericka the Great',
+cursive;
+font-family: 'Indie Flower',
+cursive;
+
+#header_brand_text {
+  line-height: 1;
+}
+
+.link_with_no_text_decoration {
+  text-decoration: none;
+}
+
+#about {
+  height: 100vh;
+  padding-top: 10%;
+  background-color: red;
+  font-family: 'Monoton',
+    cursive;
+}
+
+#testimonials {
+  background-color: darkgray;
+  border: 1px solid black;
+  margin-bottom: 15px;
+  font-family: 'Fredericka the Great',
+    cursive;
+  padding-top: 3rem;
+  text-decoration-color: black;
+
+}
+
+
+.testimonial_card {
+  margin: 30;
+  padding: 10%;
+  width: 20%;
+  height: 20%;
+  position: relative;
+  right: 10%;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: white(216, 16, 16);
+  background-clip: border-box;
+  border-radius: 1rem;
+  border-block-color: black;
+
+}
+
+#about_photo {
+  height: 50%;
+  background-image: url('./resources/monstercat.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  ;
+}
+
+.inline_element {
+  display: inline;
+}
+
+.margin_2px {
+  margin: 2px;
+}
+
+.margin_15px {
+  margin: 5px;
+
+}
+
+.no_list_style {
+  list-style: none;
+}
+
+.testPadding {
+  padding: 10px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.white_color {
+  color: white
+}
+
+.horizontally_centered_text {
+  text-align: center;
+}
+
+
+.flex_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+@media only screen and (max-width:423px) {
+  .testimonial_card {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width:423px) and (max-width:500) {
+  .testimonial_card {
+    width: 40%;
+  }
+}
+
+@media only screen and (min-width:700px) {
+  .flex_container {
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+
+  .testimonial_card {
+    margin: 20px;
+
+  }
+}
+
+.card-img-top {
+  position: relative;
+  display: flex;
+  border-radius: 100%;
+  height: 10em;
+  width: 10em;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: darkgrey;
+
+}
+
+.navtoggler {
+  padding: .25rem .75rem;
+  font-size: 2rem;
+  background-color: transparent;
+  border: 1px solid;
+  border-radius: .25rem;
+}
+
+#projects {
+  background-color: red;
+  border: 1px solid black;
+  margin-bottom: 15px;
+  font-family: 'Fredericka the Great',
+    cursive;
+  padding-top: 3rem;
+}
+
+
+.project_card {
+  margin: 30;
+  padding: 10%;
+  width: 20%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: white(216, 16, 16);
+  background-clip: border-box;
+  border-radius: 1rem;
+}
+
+@media only screen and (max-width:423px) {
+  .project_card {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width:423px) and (max-width:500) {
+  .project_card {
+    width: 40%;
+  }
+
+  .project_card {
+    margin: 20px;
+
+  }
+
+  .black_color {
+    color: black font-family: 'Monoton',
+      cursive;
+  }
